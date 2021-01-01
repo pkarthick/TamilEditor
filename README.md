@@ -1,2 +1,2 @@
 # TamilEditor
- Transliteration
+Tamil Editor with Transliteration
