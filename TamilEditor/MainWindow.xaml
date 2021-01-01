@@ -1,0 +1,32 @@
+﻿<Window x:Class="TamilEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TamilEditor"
+        mc:Ignorable="d"
+        Title="தமிழ் ஒலிபெயர்ப்பு" Height="450" Width="800" Icon="icon.png" WindowState="Maximized" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Content="தமிழ் in English" FontSize="16" FontWeight="Bold" />
+            <TextBox Grid.Row="1" x:Name="EnglishTB" FontSize="16" AcceptsReturn="True" TextChanged="EnglishTB_TextChanged" />
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Content="தமிழ்" FontSize="16" FontWeight="Bold" />
+            <TextBox Grid.Row="1" x:Name="TamilRTB" AcceptsReturn="True" FontSize="16" />
+        </Grid>
+        
+    </Grid>
+</Window>

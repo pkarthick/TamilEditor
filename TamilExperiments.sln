@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TamilLib", "TamilLib\TamilLib.csproj", "{55B1FD6B-E444-4375-A9B9-A8060DBD7EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamilEditor", "TamilEditor\TamilEditor.csproj", "{D1F2CC03-9E33-45D9-BEF3-22E5321EFDD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamilNames", "TamilNames\TamilNames.csproj", "{965F23F3-B8AC-4066-AB94-ED88E2C2443B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B1FD6B-E444-4375-A9B9-A8060DBD7EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B1FD6B-E444-4375-A9B9-A8060DBD7EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B1FD6B-E444-4375-A9B9-A8060DBD7EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B1FD6B-E444-4375-A9B9-A8060DBD7EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F2CC03-9E33-45D9-BEF3-22E5321EFDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F2CC03-9E33-45D9-BEF3-22E5321EFDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F2CC03-9E33-45D9-BEF3-22E5321EFDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F2CC03-9E33-45D9-BEF3-22E5321EFDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965F23F3-B8AC-4066-AB94-ED88E2C2443B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965F23F3-B8AC-4066-AB94-ED88E2C2443B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965F23F3-B8AC-4066-AB94-ED88E2C2443B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965F23F3-B8AC-4066-AB94-ED88E2C2443B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67080B33-21D1-4F9F-9A36-E7748B424395}
+	EndGlobalSection
+EndGlobal
